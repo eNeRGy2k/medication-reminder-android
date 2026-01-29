@@ -1,8 +1,7 @@
-// root build.gradle.kts
-
 plugins {
-    id("com.android.application") version "8.0.0" apply false
-    id("kotlin-android") version "1.7.10" apply false
+    // Kotlin and Android plugins
+    id("com.android.gradle-plugin") version "7.0.0"
+    kotlin("android") version "1.5.31"
 }
 
 allprojects {
